@@ -1,5 +1,6 @@
 import Categories from "./herocomponents/Categories";
 import HeroImages from "./herocomponents/HeroImages";
+import Services from "./herocomponents/Services";
 import styles from "./HeroSection.module.css";
 
 export default function Hero() {
@@ -11,11 +12,10 @@ export default function Hero() {
           {/* Left: Categories */}
           <Categories />
           <div className={styles.heroRight}>
-            {/* Middle: Images (Next Step) */}
+            {/* Middle: Images */}
             <HeroImages />
-
-            {/* Bottom: Services (Next Step) */}
-            <div className={styles.services}>Icons will go here</div>
+            {/* Bottom: Services */}
+            <Services />
           </div>
         </div>
       </section>
