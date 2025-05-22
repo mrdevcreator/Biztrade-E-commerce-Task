@@ -1,0 +1,6 @@
+/* body size and color */
+.mainBody {
+  width: 96%;
+  background-color: #ededed;
+  margin: 0 auto;
+}

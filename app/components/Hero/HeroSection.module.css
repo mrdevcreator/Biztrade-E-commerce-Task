@@ -1,0 +1,20 @@
+.hero {
+  padding: 2rem 0;
+  width: 86%;
+  height: 100%;
+  margin: 0 auto; 
+}
+
+.heroGrid {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 0 auto;
+  padding: 0 0rem;
+}
+
+.heroRight {
+  display: grid;
+  grid-template-rows: 380px 1fr;
+  gap: 1.5rem;
+}
