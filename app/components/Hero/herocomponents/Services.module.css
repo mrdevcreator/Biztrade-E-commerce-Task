@@ -23,7 +23,7 @@
 }
 
 .serviceCard {
-  width: 210px;
+  width: 24%;
   height: 94px;
   display: grid;
   grid-template-columns: 117px 1fr;
