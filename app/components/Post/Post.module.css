@@ -4,9 +4,17 @@
   height: 360px;
   display: flex;
   border-radius: 8px;
-  background: linear-gradient(to right, #e1b285, #f8f6f6);
-
-  
+  background: linear-gradient(
+  to right,
+  #e1b285 0%,
+  #e1b285 10%,
+  #e5bb94 20%,
+  #e5bb94 30%,
+  #e5bb94 40%,
+  #f0dfcf 50%,
+  #f8f6f6 60%,
+  #f8f6f6 100%
+);
 
   overflow: hidden;
   padding: 2rem;

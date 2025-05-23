@@ -6,6 +6,7 @@ import Footer from "./components/Foot/Footer";
 import Seller from "./components/Seller/Seller";
 import ProductsGrid from "./components/Products/ProductGrid";
 import RFQ from "./components/RFQ/RFQ";
+import BusinessAdvisory from "./components/BusinessAdvisory/BusinessAdvisory";
 import Post from "./components/Post/Post";
 import styles from "./page.module.css";
 
@@ -43,6 +44,7 @@ export default async function Home() {
       {Object.entries(productCategories).map(([category, products]) => (
         <ProductsGrid key={category} data={{ category, products }} />
       ))}
+      <BusinessAdvisory />
       <RFQ />
       <Post />
       <Footer />
